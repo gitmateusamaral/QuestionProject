@@ -1,0 +1,24 @@
+{
+  "name": "questionproject",
+  "version": "1.0.0",
+  "description": "- Hugo de Araújo\r - Marcéli Melchiors\r - Mateus Amaral\r - Victor Mendes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmateusamaral/QuestionProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitmateusamaral/QuestionProject/issues"
+  },
+  "homepage": "https://github.com/gitmateusamaral/QuestionProject#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1",
+    "jquery": "^3.6.0"
+  }
+}
