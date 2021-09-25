@@ -37,24 +37,40 @@
 		<script src="../node_modules/@popperjs/core/dist/esm/popper.js"></script>
 		<script src="../node_modules/jquery/dist/jquery.js"></script>
 		
+		<!-- Criando opção de receber a pergunta do usuário. -->
+		<!-- Atribuindo classes para formatar a tipografia e a caixa de texto 
+		(espaçamento, tamanho da fonte, estilização das bordas, cores e informações do interior da caixa de texto). -->
 		<div class="container pt-4">
 			<div>
 				<form class="row">
 					<label for="pergunta" class="fs-4 pb-1">Qual a sua pergunta?</label><br>
-					<input type="text" id="pergunta" name="pergunta" placeholder="Escreva sua pergunta.">
-				</form>
-			</div>
-		</div>
-				
-		<div class="container pt-4">
-			<div>
-				<form class="row">
-					<label for="inf" class="fs-4 pb-1">Tem alguma informação adicional?</label><br>
-					<textarea rows="5" type="text" id="inf" name="inf" placeholder="Escreva uma descrição."></textarea>
+					<input class="form-control bg-white" type="text" id="pergunta" name="pergunta" placeholder="Escreva sua pergunta.">
 				</form>
 			</div>
 		</div>
 		
+		<!-- Criando caixas de texto para receber as opções de resposta. -->	
+		<div class="container pt-4">
+			<div>
+				<form class="row col-6 col-md-4">
+					<label for="resposta" class="fs-4 pb-1">Quais as opções de resposta?</label><br>
+					<input class="form-control bg-white" type="text" id="resposta" name="resposta" placeholder="Opção 1."><br>
+					<input class="form-control bg-white mt-1" type="text" id="resposta" name="resposta" placeholder="Opção 2.">
+				</form>
+			</div>
+		</div>	
+		
+		<!-- Criando caixa de texto para receber detalhes adicionais sobre a pergunta. -->
+		<div class="container pt-4">
+			<div>
+				<form class="row">
+					<label for="inf" class="fs-4 pb-1">Tem alguma informação adicional?</label><br>
+					<textarea class="form-control bg-white" rows="5" type="text" id="inf" name="inf" placeholder="Escreva uma descrição."></textarea>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Criando um botão de submissão e atribuindo classes para sua estilização. -->
 		<div class="container pt-4">
 			<div class="text-end">
 				<button class="btn btn-warning" type="submit">Confirmar</button> 
