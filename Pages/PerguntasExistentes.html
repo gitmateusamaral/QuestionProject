@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Perguntinhas | Perguntas existentes</title>
+		<title>Responda aqui</title>
 		<link rel="icon" href="../img/logo.png">
 		<meta charset="UTF-8"/>
 		<link href="../node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet"/>
@@ -34,29 +34,59 @@
 		</header>
 
 		<div class="container mt-3">
-			<h2>Suas perguntas respondidas</h2>
-		  
-			<div class="dropdown">
-			  <button type="button" class="btn btn-secundary dropdown-toggle"  data-bs-toggle="dropdown" >
-				Qual jogo devo streamar hoje
-			  </button>
-			  <ul class="dropdown-menu">
-				<li><span class="dropdown-item-text">Just Text</span></li>
-				<li><span class="dropdown-item-text">Just Text</span></li>
-			  </ul>
+			<h2>Responda estas perguntas e ajude pessoas:</h2>
+			<div id="accordion">
+			  <div class="card">
+				<div class="card-header">
+				  <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+					Qual o melhor lip tint?
+				  </a>
+				</div>
+				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+				  <div class="card-body">
+					<div class="btn-group-vertical">
+						<button type="button" class="btn btn-primary">Ruby Rose </button>
+						<button type="button" class="btn btn-primary">Boca Rosa </button>
+						<button type="button" class="btn btn-primary">Eudora </button>
+					  </div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="card">
+				<div class="card-header">
+				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+					Indicação de livros! Urgente!
+				</a>
+				</div>
+				<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+					<div>
+						<form class="container mt-4 row">
+							<input type="text" id="pergunta" name="pergunta" placeholder="Comente e contribua...">
+						</form>
+					</div>
+				</div>
+			  </div>
+			  <div class="card">
+				<div class="card-header">
+				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+					Aeróbico ou musculação hoje?
+				  </a>
+				</div>
+				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+				  <div class="card-body">
+					<div class="btn-group-vertical">
+						<button type="button" class="btn btn-primary">Aeróbico </button>
+						<button type="button" class="btn btn-primary">Musculação </button>
+					  </div>
+				  </div>
+				</div>
+			  </div>
 			</div>
-		  </div>
+		</div>
 
 
 
 	
-
-		<div>
-			<p class=" h3 container p-4 my-4 bg-dark text-white">Responda perguntas e ajude pessoas:</p>
-			<p class="container p-3 my-3 bg-dark text-white">Qual o melhor lip tint?</p>
-			<p class="container p-3 my-3 bg-dark text-white">Indicação de livros! Urgente!</p>
-			<p class="container p-3 my-3 bg-dark text-white">Aeróbico ou musculação hoje?</p>
-		</div>
 
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="../node_modules/@popperjs/core/dist/esm/popper.js"></script>
