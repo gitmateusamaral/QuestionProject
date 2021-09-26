@@ -34,65 +34,67 @@
 			</nav>
 		</header>
 		
-		<!--Cria accordion para mostrar aos usuários suas perguntas respondidas -->
-		<div class="container mt-4">
-			<h2>Suas perguntas respondidas:</h2>
-			<div id="accordion">
-			  <!--Cria cards para cada pergunta-->
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-					McDonaldsxBurger pra jantar?
-				  </a>
-				</div>
-				<!--Cria a caixa para abrir os buttons com as opções de resposta e a porcentagem de cada opção-->
-				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-				  <div class="card-body">
-					<div class="btn-toolbar">
-						<button type="button" class="btn btn-primary">McDonalds <span class="badge bg-warning">45%</span></button>
-						<button type="button" class="btn btn-primary">BK <span class="badge bg-warning">42%</span></button>
-						<button type="button" class="btn btn-primary">Nenhuma <span class="badge bg-warning">13%</span></button>
+		<div class="margin-body">
+			<!--Cria accordion para mostrar aos usuários suas perguntas respondidas -->
+			<div class="container mt-4">
+				<h2>Suas perguntas respondidas:</h2>
+				<div id="accordion">
+				<!--Cria cards para cada pergunta-->
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+						McDonalds x Burger King pra jantar?
+					</a>
 					</div>
-				  </div>
-				  <!--Mostra o link da página de votação de uma pergunta específica-->
-				  <a href="TelaSelecao.html" class="btn btn-link fw-bold">Clique aqui para ir para a página em que as pessoas podem votar</a>
+					<!--Cria a caixa para abrir os buttons com as opções de resposta e a porcentagem de cada opção-->
+					<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+					<div class="card-body">
+						<div class="btn-toolbar">
+							<button type="button" class="btn btn-primary">McDonalds <span class="badge bg-warning">45%</span></button>
+							<button type="button" class="btn btn-primary">BK <span class="badge bg-warning">42%</span></button>
+							<button type="button" class="btn btn-primary">Nenhuma <span class="badge bg-warning">13%</span></button>
+						</div>
+					</div>
+					<!--Mostra o link da página de votação de uma pergunta específica-->
+					<a href="TelaSelecao.html" class="btn btn-link fw-bold">Clique aqui para ir para a página em que as pessoas podem votar</a>
+					</div>
 				</div>
-			  </div>
 
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-					Por qual razão o mundo existe?
-				</a>
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+						Por qual razão o mundo existe?
+					</a>
+					</div>
+					<!--Cria a caixa para abrir os comentários enviados por outros usuários-->
+					<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						<p>Não sabemos - por Anônimo137 </p>
+						<p>Deus quis - por maria_oliveira_123</p>
+						<p>Big Bang - por max_planalto</p>
+					</div>
+					</div>
 				</div>
-				<!--Cria a caixa para abrir os comentários enviados por outros usuários-->
-				<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-				  <div class="card-body">
-					<p>Não sabemos - por Anônimo137 </p>
-					<p>Deus quis - por maria_oliveira_123</p>
-					<p>Big Bang - por max_planalto</p>
-				  </div>
-				</div>
-			  </div>
 
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-					Qual jogo devo stremar hoje?
-				  </a>
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+						Qual jogo devo stremar hoje?
+					</a>
+					</div>
+					<!--Cria a caixa para abrir as menções feitas pelos usuários-->
+					<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						<p>LOL - 125 menções</p>
+						<p>FreeFire - 34 menções </p>
+					</div>
+					</div>
 				</div>
-				<!--Cria a caixa para abrir as menções feitas pelos usuários-->
-				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-				  <div class="card-body">
-					<p>LOL - 125 menções</p>
-					<p>FreeFire - 34 menções </p>
-				  </div>
-				</div>
-			  </div>
 
+				</div>
 			</div>
-		  </div>
-
+		</div>
+		
 		  <footer class="bg-warning text-center text-lg-start fixed-bottom">
 			<div class="text-center py-3" >
 			  Question Project | © 2021 Copyright

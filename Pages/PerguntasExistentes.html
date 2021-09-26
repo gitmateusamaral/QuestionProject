@@ -34,61 +34,63 @@
 			</nav>
 		</header>
 
-		<!--Cria accordion para mostrar aos usuários as perguntas a serem respondidas -->
-		<div class="container mt-3">
-			<h2>Responda estas perguntas e ajude pessoas:</h2>
-			<div id="accordion">
-			 <!--Cria cards para cada pergunta-->
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-					Qual o melhor lip tint?
-				  </a>
-				</div>
-				<!--Cria a caixa para abrir os buttons com as opções de resposta-->
-				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-				  <div class="card-body">
-					<div class="btn-toolbar">
-						<button type="button" class="btn btn-primary">Ruby Rose </button>
-						<button type="button" class="btn btn-primary">Boca Rosa </button>
-						<button type="button" class="btn btn-primary">Eudora </button>
-					  </div>
-				  </div>
-				</div>
-			  </div>
-
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-					Indicação de livros! Urgente!
-				</a>
-				</div>
-				<!--Cria a caixa para os outros usuários responderem com sua opinião-->
-				<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-					<div>
-						<form class="container mt-4 row">
-							<input class="mb-3" type="text" id="pergunta" name="pergunta" placeholder="Comente e contribua...">
-						</form>
+		<div class="margin-body">
+			<!--Cria accordion para mostrar aos usuários as perguntas a serem respondidas -->
+			<div class="container mt-3">
+				<h2>Responda estas perguntas e ajude pessoas:</h2>
+				<div id="accordion">
+				<!--Cria cards para cada pergunta-->
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+						Qual o melhor lip tint?
+					</a>
+					</div>
+					<!--Cria a caixa para abrir os buttons com as opções de resposta-->
+					<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+					<div class="card-body">
+						<div class="btn-toolbar">
+							<button type="button" class="btn btn-primary">Ruby Rose </button>
+							<button type="button" class="btn btn-primary">Boca Rosa </button>
+							<button type="button" class="btn btn-primary">Eudora </button>
+						</div>
+					</div>
 					</div>
 				</div>
-			  </div>
 
-			  <div class="card mt-1">
-				<div class="card-header">
-				  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-					Aeróbico ou musculação hoje?
-				  </a>
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+						Indicação de livros! Urgente!
+					</a>
+					</div>
+					<!--Cria a caixa para os outros usuários responderem com sua opinião-->
+					<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+						<div>
+							<form class="container mt-4 row">
+								<input class="mb-3" type="text" id="pergunta" name="pergunta" placeholder="Comente e contribua...">
+							</form>
+						</div>
+					</div>
 				</div>
-				<!--Cria a caixa para abrir os buttons com as opções de resposta-->
-				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-				  <div class="card-body">
-					<div class="btn-toolbar">
-						<button type="button" class="btn btn-primary">Aeróbico </button>
-						<button type="button" class="btn btn-primary">Musculação </button>
-					  </div>
-				  </div>
+
+				<div class="card mt-1">
+					<div class="card-header">
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+						Aeróbico ou musculação hoje?
+					</a>
+					</div>
+					<!--Cria a caixa para abrir os buttons com as opções de resposta-->
+					<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						<div class="btn-toolbar">
+							<button type="button" class="btn btn-primary">Aeróbico </button>
+							<button type="button" class="btn btn-primary">Musculação </button>
+						</div>
+					</div>
+					</div>
 				</div>
-			  </div>
+				</div>
 			</div>
 		</div>
 

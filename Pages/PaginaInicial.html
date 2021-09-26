@@ -29,52 +29,53 @@
 
 
 		<!--Cria carrossel com apresentação da ideia-->
-		<div id="demo"  class="carousel slide" data-bs-ride="carousel">
+		<div class="margin-body">
+			<div id="demo"  class="carousel slide" data-bs-ride="carousel">
 
-			<!--Cria os buttons referente a cada imagem-->
-			<div class="carousel-indicators" >
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				<!--Cria os buttons referente a cada imagem-->
+				<div class="carousel-indicators" >
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				</div>
+
+				<!--Cria os slides da apresentação com as fotos-->
+				<div class="carousel-inner"> 
+					<!--Cria as imagens da apresentação-->
+					<div class="carousel-item active">
+						<img src="../img/carousel1.png"  class="d-block w-100 " alt="0">
+						<!--Cria a legenda da foto-->
+						<div class="carousel-caption">
+							<h3>Faça parte da nossa comunidade</h3>
+							<p>Aqui você pode ajudar outras pessoas que estão indecisas</p>
+						</div>  
+					</div>
+
+					<div class="carousel-item">
+						<img src="../img/carousel2.png"  class="d-block w-100" alt="1">
+						<!--Cria a legenda da foto-->
+						<div class="carousel-caption">
+							<p>Você também pode inserir suas dúvidas</p>
+						</div>  
+					</div>
+
+					<div class="carousel-item">
+						<img src="../img/carousel0.png"  class="d-block w-100" alt="2">
+						<!--Cria a legenda da foto-->
+						<div class="carousel-caption">
+							<p>E pessoas engajadas te ajudarão a tomar a melhor decisão!</p>
+						</div>  
+					</div>
+				</div>
+				
+				<!--Cria as setas de controle-->
+				<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>			
 			</div>
-
-			<!--Cria os slides da apresentação com as fotos-->
-			<div class="carousel-inner"> 
-				<!--Cria as imagens da apresentação-->
-				<div class="carousel-item active">
-					<img src="../img/carousel1.png"  class="d-block w-100 " alt="0">
-					<!--Cria a legenda da foto-->
-					<div class="carousel-caption">
-						<h3>Faça parte da nossa comunidade</h3>
-						<p>Aqui você pode ajudar outras pessoas que estão indecisas</p>
-					</div>  
-				</div>
-
-				<div class="carousel-item">
-					<img src="../img/carousel2.png"  class="d-block w-100" alt="1">
-					<!--Cria a legenda da foto-->
-					<div class="carousel-caption">
-						<p>Você também pode inserir suas dúvidas</p>
-					</div>  
-				</div>
-
-				<div class="carousel-item">
-					<img src="../img/carousel0.png"  class="d-block w-100" alt="2">
-					<!--Cria a legenda da foto-->
-					<div class="carousel-caption">
-						<p>E pessoas engajadas te ajudaram a tomar a melhor decisão!</p>
-					</div>  
-				</div>
-
-			</div>
-			
-			<!--Cria as setas de controle-->
-			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</button>			
 		</div>
 
 		<footer class="bg-warning text-center text-lg-start fixed-bottom">
