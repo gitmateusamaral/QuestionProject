@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Perguntinhas | Criação de Perguntas</title>
+		<title>Perguntinhas | Sobre Nós</title>
 		<link rel="icon" href="../img/logo.png">
 		<meta charset="UTF-8"/>
 		<link href="../node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet"/>
@@ -37,44 +37,46 @@
 		<script src="../node_modules/@popperjs/core/dist/esm/popper.js"></script>
 		<script src="../node_modules/jquery/dist/jquery.js"></script>
 		
-		<!-- Nos três próximos forms, foram atribuídas classes para formatar a tipografia e a caixa de texto 
+		<!-- Criando título da página, centralizando e definindo espaçamento. -->
+		<div class="container">
+			<h3 class="pt-4 text-center">Login</h3>
+		</div>
+		
+		<!-- Nos dois próximos forms, foram atribuídas classes para formatar a tipografia e a caixa de texto 
 		(espaçamento, tamanho da fonte, estilização das bordas, cores e informações do interior da caixa de texto). -->
-		<!-- Criando opção de receber a pergunta do usuário. -->
-		<div class="container pt-4">
+		<!-- Criando opção de receber o email do usuário. -->
+		<div class="container pt-3">
 			<div>
-				<form class="row">
-					<label for="pergunta" class="fs-4 pb-1">Qual a sua pergunta?</label><br>
-					<input class="form-control bg-white" type="text" id="pergunta" name="pergunta" placeholder="Escreva sua pergunta.">
+				<form class="col-md-4 offset-md-4">
+					<label for="email" class="fs-5 pb-1">Email:</label>
+					<input class="form-control bg-white" type="email" id="email" name="email" placeholder="Insira seu email.">
 				</form>
 			</div>
 		</div>
 		
-		<!-- Criando caixas de texto para receber as opções de resposta. -->	
-		<div class="container pt-4">
+		<!-- Criando opção de receber a senha do usuário. -->
+		<div class="container pt-3">
 			<div>
-				<form class="row col-6 col-md-4">
-					<label for="resposta" class="fs-4 pb-1">Quais as opções de resposta?</label><br>
-					<input class="form-control bg-white" type="text" id="resposta" name="resposta" placeholder="Opção 1."><br>
-					<input class="form-control bg-white mt-1" type="text" id="resposta" name="resposta" placeholder="Opção 2.">
-				</form>
-			</div>
-		</div>	
-		
-		<!-- Criando caixa de texto para receber detalhes adicionais sobre a pergunta. -->
-		<div class="container pt-4">
-			<div>
-				<form class="row">
-					<label for="inf" class="fs-4 pb-1">Tem alguma informação adicional?</label><br>
-					<textarea class="form-control bg-white" rows="5" type="text" id="inf" name="inf" placeholder="Escreva uma descrição."></textarea>
+				<form class="col-md-4 offset-md-4">
+					<label for="senha" class="fs-5 pb-1">Senha: </label>
+					<input class="form-control bg-white" type="password" id="senha" name="senha" placeholder="Insira sua senha.">
 				</form>
 			</div>
 		</div>
 		
-		<!-- Criando um botão de submissão e atribuindo classes para sua estilização. -->
-		<div class="container pt-4">
-			<div class="text-end">
-				<button class="btn btn-warning" type="submit">Confirmar</button> 
+		<!-- Criando botão em bloco para fazer login, definindo sua cor e ajustando-o ao centro da tela. -->
+		<div class="container pt-3">
+			<div class="d-grid gap-2 col-md-4 offset-md-4">
+				<button class="btn btn-warning" type="submit">Entrar</button> 
 	        </div>
 		</div>
-	</body>
-</html>
+		
+		<!-- Criando referência para a página de cadastro, para caso o usuário ainda não esteja registrado no site.-->
+		<div class="container pt-3">
+			<div class="text-center">
+				<h5><p class="text-white">Ainda não está registrado?</p></h5>
+				<h5><a class="bg-yellow text-white" href="Cadastro.html">Cadastre-se aqui!</a></h5>
+	        </div>
+		</div>
+		
+		
