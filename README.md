@@ -46,7 +46,8 @@ Partials:
 - node_modules/bootstrap/scss/mixins/_hover.scss
 
 Modules:
-- node_modules/bootstrap/scss/mixins/_hover.scss -->  node_modules/bootstrap/scss/bootstrap.scss
+- node_modules/bootstrap/scss/_customImg.scss -->  node_modules/bootstrap/scss/bootstrap.scss
+- node_modules/bootstrap/scss/_margin.scss -->  node_modules/bootstrap/scss/bootstrap.scss
 - node_modules/bootstrap/scss/mixins/_hover.scss -->  node_modules/bootstrap/scss/_mixins.scss
 
 Mixins (O mixin foi feito em um módulo que será utilizado por várias classes):
